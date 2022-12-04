@@ -7,8 +7,8 @@ Console.Write("Enter number: ");
 int N = Convert.ToInt32(Console.ReadLine());
 
 int result = 1;
-for(int i = 1; i <= N; i++) 
+for (int i = 1; i <= N; i++)
 {
-result = i * i * i;
-Console.Write(result + $",");
+    result = i * i * i;
+    Console.Write(result + $",");
 }
